@@ -1,3 +1,16 @@
+# 第1回の概要
+
+### <span style="color: red; ">4/15に開催いたしました。ご参加いただきありがとうございます</span>
+
+- 当日は３名のニンジャにご参加いただきました！
+
+## 当日の様子
+![dsc_0240_preview](https://user-images.githubusercontent.com/1730247/40265646-06a20162-5b77-11e8-9bdc-2ec2ba378c18.jpeg)
+![dsc_0242_preview](https://user-images.githubusercontent.com/1730247/40265648-07267de8-5b77-11e8-9999-0252d354de2e.jpeg)
+![dsc_0244_preview](https://user-images.githubusercontent.com/1730247/40265649-079917cc-5b77-11e8-9324-e67604b60ec6.jpeg)
+
+# 以下事前のご案内。
+
 ## 概要
 - 場所：[鎌倉市／鎌倉生涯学習センター（きらら鎌倉）](https://www.city.kamakura.kanagawa.jp/gakusyuc/kamakura.html)　4F 美術創作室
 - 日時：4月15日(日曜日) 13:30〜16:00(終了予定)
