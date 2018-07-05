@@ -5,6 +5,7 @@
       src="https://code.jquery.com/jquery-3.3.1.min.js"
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"></script>
+  <script src="localhost/common/js.sp/cv.js"></script>
 </head>
 
 <body>
@@ -12,12 +13,11 @@
 <p id="ck"></p>
 <script>
 $(function(){
+  console.log("cv.html");
   document.cookie = "coderdojo-kamakura.github.io=1";
-  console.log("cv");
   console.log(document.cookie);
   $('#ck').text(document.cookie);
 });
-
 </script>
 </body>
 
