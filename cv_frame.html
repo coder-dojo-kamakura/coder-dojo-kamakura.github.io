@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h2>Thank you!</h2>
+
+<iframe src="tetsuyas.github.ic/iframe.html" frameborder="0">
+
+</iframe>
+
+<p id="ck"></p>
+<script>
+$(function(){
+  console.log("cv.html");
+  document.cookie = "coderdojo-kamakura.github.io=1";
+  console.log(document.cookie);
+  $('#ck').text(document.cookie);
+});
+</script>
+</body>
+
+</html>
