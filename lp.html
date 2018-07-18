@@ -1,10 +1,32 @@
 <html>
 <head>
+  <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+
 </head>
 <body>
 <h2>Sample Landing Page</h2>
 <!--a href="cvjs.html">Link to CV Page</a-->
 </body>
+<script>
+  var clear_cookie = function(){
+    document.cookie.split(';').forEach(function(c) {
+      document.cookie = c.trim().split('=')[0] + '=;' + 'max-age=0;';
+    });
+    $('#cookie_text').text(document.cookie);
+  };
+  $(function(){
+    console.log("==Media Sample Page==");
+    console.log(document.cookie);
+    $('#cookie_text').text(document.cookie);
+ });
+
+</script>
+<p>Current cookie: <span id="cookie_text"></span></p>
+<a href="#" onclick="clear_cookie()">クッキーを削除する</a>
+
 
 </html>
 
