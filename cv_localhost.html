@@ -15,7 +15,19 @@
 <p id="cv"></p>
 <!-- 必要なcvタグ -->
 <script src="https://localhost:3001/cv_tag.js"></script>
-<script> $(function(){ tnql_cv(1,'localhost:3001') }); </script>
+<script>
+    if (document.addEventListener) {
+        document.addEventListener("DOMContentLoaded", function(){
+            tnql_cv(1,'localhost:3001');
+        }, false);
+    } else {
+        window.onload = function(){
+            tnql_cv(1,'localhost:3001');
+        }
+    }
+    document.addEventListener("DOMContentLoaded", function(){
+    });
+</script>
 <!-- 必要なcvタグ -->
 
 </body>
