@@ -13,20 +13,13 @@
 <h2>Thank you!</h2>
 <p>https://tetsuyas.github.io/cv_tag.js　によるCVタグ</p>
 <p id="cv"></p>
+
 <!-- 必要なcvタグ -->
 <script src="https://localhost:3001/cv_tag.js"></script>
 <script>
-    if (document.addEventListener) {
-        document.addEventListener("DOMContentLoaded", function(){
-            tnql_cv(1,'localhost:3001');
-        }, false);
-    } else {
-        window.onload = function(){
-            tnql_cv(1,'localhost:3001');
-        }
-    }
     document.addEventListener("DOMContentLoaded", function(){
-    });
+        tnql_cv("MyCookie1",'localhost:3001');
+    }, false);
 </script>
 <!-- 必要なcvタグ -->
 
